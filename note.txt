@@ -1,0 +1,28 @@
+- lên W3School xem document
+- jquery là thư viện JS, không phải framewrok, muốn dùng jquery thì phải nhúng link CDN
+- jquery là truy vấn phần tử HTML và thực hiện hành động của chúng
+- cú pháp cơ bản: $(selector).action(function(){...}): action là các events
+    + selector: tag, class, id, this
+- code jquery được nằm trong: điều này đảm bảo là code jQuery sẽ được chạy sau khi html được tải xong
+    $(document).ready(function(){
+        // jQuery methods go here...
+    });
+- các effect:
+    + hide()/show(): ẩn hiện, nếu có thêm tham số speed thì giống slide
+    + fade(): mờ dần
+    + slide(): trượt
+    + animate(): di chuyển element(element phải có css position), thêm CSS 
+    + stop(): dừng các effect
+    --> tham số callback trong effect sẽ được thực hiện sau khi effect được thực thi xong   
+    - chaining: dùng nhiều effect cho 1 element
+- thao tác với DOM 
+    + get 
+        - text(): lấy text bên trong thẻ (giống innerText)
+        - html(): lấy text + text node (giống textContent)
+        - val(): lấy giá trị từ input, option, textarea
+        - attr(): lấy thuộc tính của thẻ
+    + set
+        - text("Thanh Toan"): đặt text cho 1 thẻ
+        - html(<h1>Thanh Toan</h1>): đặt text + text node cho element
+        - val('Thanh Toan'): đặt giá trị từ input, option, textarea
+        - attr('href', 'https://www.instagram.com/tonii.playps4'): đặt thuộc tính của thẻ
