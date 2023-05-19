@@ -26,3 +26,18 @@
         - html(<h1>Thanh Toan</h1>): đặt text + text node cho element
         - val('Thanh Toan'): đặt giá trị từ input, option, textarea
         - attr('href', 'https://www.instagram.com/tonii.playps4'): đặt thuộc tính của thẻ
+    + add: dùng để thêm element/text
+        - append(), prepend(): chèn vào text hoặc chèn thêm element vào element được selector vào cuối hoặc đầu
+        - after(), before(): chèn thêm text hoặc element ở cuối hoặc trước 1 element được selector
+        --> có thể thêm nhiều text hoặc element 1 lượt
+    + remove: remove 1 elementv
+        - remove(): remove element được selector. có thể nhận tham số là class, id để remove theo class hoặc ids
+        - empty(): remove các element con của element được selector
+    + CSS
+        - addClass(), removeClass(): thêm, gở 1 hoặc nhiều class 
+        - toggleClass(): addClass() + removeClass()
+        - css(): set hoặc get thuộc tính CSS  
+    + Dimensions: làm việc với kích thước của element (https://www.w3schools.com/jquery/jquery_dimensions.asp)
+    + Traversing: tìm phần tử dựa trên mối quan hệ tree của phần tử được chọn (https://www.w3schools.com/jquery/jquery_traversing.asp)
+    + Filtering: tìm phần tử dựa theo index hoặc class (https://www.w3schools.com/jquery/jquery_traversing_filtering.asp)
+    
